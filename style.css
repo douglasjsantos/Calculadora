@@ -3,6 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
   font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .display {
@@ -44,11 +45,12 @@ button {
 
 button:hover {
   background-color: #1c2223;
+  transform: translateY(-2px);
 }
 
 button:active {
-  box-shadow: 0px 1px 0px #14191a; /* adiciona uma sombra mais escura */
-  transform: translateY(2px); /* move o botão para baixo */
+  box-shadow: 0px 1px 0px #14191a;
+  transform: translateY(2px);
 }
 
 .C {
